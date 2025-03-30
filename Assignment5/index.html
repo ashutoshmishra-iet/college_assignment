@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servlet Example</title>
+</head>
+<body>
+    <h1>Welcome to the Java Servlet Example</h1>
+
+    <!-- Form for Basic Servlet -->
+    <h2>Basic Servlet</h2>
+    <form action="basic" method="get">
+        <button type="submit">Get Welcome Message</button>
+    </form>
+
+    <!-- Form for Login -->
+    <h2>Login Form</h2>
+    <form action="login" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+
+    <!-- Form for Session Management -->
+    <h2>Session Management</h2>
+    <form action="session" method="get">
+        <label for="sessionUsername">Enter Username:</label>
+        <input type="text" id="sessionUsername" name="username" required>
+        <br>
+        <button type="submit">Create Session</button>
+    </form>
+
+    <!-- Form for CGI vs Servlets -->
+    <h2>CGI vs Servlets</h2>
+    <form action="welcome" method="get">
+        <label for="cgiUsername">Enter Username:</label>
+        <input type="text" id="cgiUsername" name="username" required>
+        <br>
+        <button type="submit">Submit CGI</button>
+    </form>
+</body>
+</html>
